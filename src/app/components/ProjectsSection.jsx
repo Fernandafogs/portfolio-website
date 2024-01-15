@@ -6,8 +6,8 @@ import ProjectTag from './ProjectTag';
 const projectsData = [
     {
         id: 1,
-        title: "Portfolio Website",
-        description: "A React portfolio website that displays my projects and skills.<br/> Technologies used: Javascript, React JS, Next.js and Tailwind CSS.",
+        title: "Portfolio",
+        description: "A React portfolio website that displays my projects and skills (Technologies used: Javascript, React JS, Next.js and Tailwind CSS.)",
         image: "/images/projects/1.png",
         tag: ["All", "Web"],
         gitUrl: "/",
@@ -15,21 +15,21 @@ const projectsData = [
     },
     {
         id: 2,
-        title: "Recipe App",
-        description: "A full-stack recipe app project that utilizes data from an external API to fetch recipe details. In this app, you can search for recipes by name, favorite recipes, and view their details. Developed front and backend api webhook.<br/> Technologies used: Typescript, React JS, Node.js & Express.js, PostgreSQL Database, JWT Authentication and RESTful API Design.",
-        image: "/images/projects/2.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl:"/",
-    },
-    {
-        id: 3,
         title: "Weather App",
-        description: "A weather app project that utilizes data from an external API to fetch weather details. In this app, you can search for weather by city name and view the temperature, weather condition, humidity and wind speed.<br/> Technologies used: Javascript, React JS and API from OpenWeatherMap.",
-        image: "/images/projects/3.png",
+        description: "A weather app project that utilizes data from an external API to fetch weather details. In this app, you can search for weather by city name and view the temperature, weather condition, humidity and wind speed (Technologies used: Javascript, React JS and API from OpenWeatherMap).",
+        image: "/images/projects/2.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Fernandafogs/weather-app",
         previewUrl:"https://fernanda-fogaca-weather-app.netlify.app/",
+    },
+    {
+        id: 3,
+        title: "Recipe App",
+        description: "A full-stack recipe app project that utilizes data from an external API to fetch recipe details. In this app, you can search for recipes by name, favorite recipes, and view their details. Developed front and backend api webhook (Technologies used: Typescript, React JS, Node.js & Express.js, PostgreSQL Database, JWT Authentication and RESTful API Design).",
+        image: "/images/projects/3.png",
+        tag: ["All", "Web"],
+        gitUrl: "/",
+        previewUrl:"/",
     },
     {
         id: 4,
@@ -88,7 +88,7 @@ const ProjectsSection = () => {
                     name="Web" 
                     isSelected={tag === "Web"}
                 />
-                <ProjectTag 
+               <ProjectTag 
                     onClick={handleTagChange} 
                     name="Mobile" 
                     isSelected={tag === "Mobile"}
