@@ -105,7 +105,7 @@ const AboutSection = () => {
   return (
     <section id='about' className='text-white'style={{ paddingTop: '10px' }}>
         <div className='mt-8 md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-            <Image src="/images/about-image.png" width={600} height={600} className='rounded-lg' />
+            <Image src="/images/about-image.png" width={600} height={600} alt="about"className='rounded-lg' />
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>

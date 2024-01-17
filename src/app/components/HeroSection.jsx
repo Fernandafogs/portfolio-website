@@ -69,6 +69,7 @@ const HeroSection = () => {
                     width={350}
                     height={350}
                     border-radius="rounded-full"
+                    priority
                     />
                 </div>
             </motion.div>
