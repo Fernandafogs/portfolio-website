@@ -34,31 +34,31 @@ const TAB_DATA = [
                 <li>
                     Full Stack Javascript Formation
                     <br />
-                    Formação Full Stack Javascript
+                    Full Stack Javascript Formation
                 </li>
                 <br />
                 <li>
                     Advanced HTML
                     <br />
-                    Fundação Bradesco
+                    Bradesco Foundation
                 </li>
                 <br />
                 <li>
                     Innovating with CSS
                     <br />
-                    Fundação Bradesco
+                    Bradesco Foundation
                 </li>
                 <br />
                 <li>
                     Practical HTML and CSS
                     <br />
-                    Fundação Bradesco
+                    Bradesco Foundation
                 </li>
                 <br />
                 <li>
                     Programming Logic Fundamentals
                     <br />
-                    Fundação Bradesco
+                    Bradesco Foundation
                 </li>
             </ul>
         )
@@ -71,19 +71,19 @@ const TAB_DATA = [
                 <li>
                     Postgraduate Degree, Marketing Administration
                     <br />
-                    FAAP - Fundação Armanado Alvares Penteado, São Paulo/Brasil
+                    FAAP - Armando Alvares Penteado Foundation, São Paulo/Brasil
                 </li>
                 <br />
                 <li>
                     Specialization, Direct Marketing
                     <br />    
-                    FAAP - Fundação Armanado Alvares Penteado, São Paulo/Brasil
+                    FAAP - Armando Alvares Penteado Foundation, São Paulo/Brasil
                 </li>
                 <br />
                 <li>
                     Bachelor's Degree, Social Communications
                     <br />    
-                    Universidade Anhembi Morumbi, São Paulo/Brasil
+                    Anhembi Morumbi University, São Paulo/Brasil
                 </li>
             </ul>
         )
@@ -109,7 +109,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I am a full stack web developer aiming to work with web appications that have usefull and responsive functionalities.
+                    I am a full stack web developer aiming to work with web applications that have usefull and responsive functionalities.
                     I have experience working with Javascript, React, Next.js, Redux, Node.js, Express, PostqreSQL, MongoDB, Typescript, HTML, CSS, Tailwind CSS, Postman and Git. Besides I have experience in web integrations in both front and backend, connecting and developing API web hooks.
                     I also have past experience working with CRM and communication projects management.
                 </p>
@@ -144,4 +144,4 @@ const AboutSection = () => {
   )
 }
 
-export default AboutSection
+export default AboutSection;

@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
+import Link from "next/link";
+
 
 const HeroSection = () => {
     return (
@@ -37,13 +39,19 @@ const HeroSection = () => {
                     I am dedicated to merging my diverse skill set to drive your digital endeavors towards unparalleled success.
                 </p>
                 <div>
-                    <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
+                    <button 
+                        className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+                        onClick={() => {document.getElementById ('contact').scrollIntoView({behavior:'smooth'})
+                    }}>
                         Hire Me
                     </button>
-                    <button className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-                        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                            Download CV
-                        </span>
+                    <button 
+                        className="px-1 py-1 w-full sm:w-fit rounded-full  bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
+                        <Link 
+                            className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2" 
+                            href='https://www.linkedin.com/in/fernanda-ramos-fogaca/' target="_blank">
+                                LinkedIn
+                        </Link>
                     </button>
                 </div>
             </motion.div>
