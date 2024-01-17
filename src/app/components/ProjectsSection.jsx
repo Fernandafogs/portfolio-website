@@ -88,7 +88,7 @@ const ProjectsSection = () => {
 
 
     return (
-        <section id='projects'style={{ paddingTop: '70px' }}>
+        <section className="container mt-24 mx-auto px-12 py-4" id='projects'style={{ paddingTop: '70px' }}>
             <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
                 My Projects
             </h2>
