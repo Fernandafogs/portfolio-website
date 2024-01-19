@@ -12,8 +12,8 @@ const projectsData = [
         image: "/images/projects/1.png",
         alt: "project1",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl:"/",
+        gitUrl: "https://github.com/Fernandafogs/portfolio-website",
+        previewUrl:"https://fernanda-fogaca.netlify.app/",
     },
     {
         id: 2,
@@ -32,38 +32,8 @@ const projectsData = [
         image: "/images/projects/3.png",
         alt: "project3",
         tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl:"/",
-    },
-    {
-        id: 4,
-        title: "Project 4",
-        description: "Project 4 description",
-        image: "/images/projects/4.png",
-        alt: "project4",
-        tag: ["All", "Web", "Mobile"],
-        gitUrl: "/",
-        previewUrl:"/",
-    },
-    {
-        id: 5,
-        title: "Project 5",
-        description: "Project 5 description",
-        image: "/images/projects/4.png",
-        alt: "project5",
-        tag: ["All", "Web", "Mobile"],
-        gitUrl: "/",
-        previewUrl:"/",
-    },
-    {
-        id: 6,
-        title: "Project 6",
-        description: "Project 6 description",
-        image: "/images/projects/4.png",
-        alt: "project6",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl:"/",
+        gitUrl: "https://github.com/Fernandafogs/recipe-app",
+        previewUrl:"https://github.com/Fernandafogs/recipe-app",
     },
 ]
 
@@ -92,7 +62,7 @@ const ProjectsSection = () => {
             <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
                 My Projects
             </h2>
-            <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+            {/*<div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
                 <ProjectTag 
                     onClick={handleTagChange} 
                     name="All" 
@@ -108,7 +78,7 @@ const ProjectsSection = () => {
                     name="Mobile" 
                     isSelected={tag === "Mobile"}
                 />
-            </div>
+            </div>*/}
             <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
                 {filteredProjects.map((project,index) => (
                     <motion.li 

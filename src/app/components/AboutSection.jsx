@@ -81,7 +81,7 @@ const TAB_DATA = [
                 </li>
                 <br />
                 <li>
-                    Bachelor Degree, Social Communications
+                    Bachelor&apos;s Degree, Social Communications
                     <br />    
                     Anhembi Morumbi University, São Paulo/Brasil
                 </li>
