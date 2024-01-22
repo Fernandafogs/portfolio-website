@@ -25,9 +25,9 @@ const HeroSection = () => {
                         sequence={[
                             "Fernanda",
                             1000,
-                            "Front-End Developer",
+                            "Frontend Developer",
                             1000,
-                            "Full Stack Developer",
+                            "Fullstack Developer",
                             1000,
                         ]}
                         wrapper="span"
@@ -36,7 +36,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    I am dedicated to merging my diverse skill set to drive your digital endeavors towards unparalleled success.
+                    I am a developer interested in advancing my skills through constant learning, and contributing to the projects' success with well-rounded applications.
                 </p>
                 <div>
                     <button 

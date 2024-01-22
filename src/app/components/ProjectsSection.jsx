@@ -28,7 +28,7 @@ const projectsData = [
     {
         id: 3,
         title: "Recipe App",
-        description: "A full-stack recipe app project that utilizes data from an external API to fetch recipe details. In this app, you can search for recipes by name, favorite recipes, and view their details. Developed front and backend api webhook (Technologies used: Typescript, React JS, Node.js & Express.js, PostgreSQL Database, JWT Authentication and RESTful API Design).",
+        description: "A fullstack recipe app project that utilizes data from an external API to fetch recipe details. In this app, you can search for recipes by name, favorite recipes, and view their details. Developed front and backend api webhook (Technologies used: Typescript, React JS, Node.js & Express.js, PostgreSQL Database, JWT Authentication and RESTful API Design).",
         image: "/images/projects/3.png",
         alt: "project3",
         tag: ["All", "Web"],

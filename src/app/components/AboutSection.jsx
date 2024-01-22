@@ -14,7 +14,7 @@ const TAB_DATA = [
                 <li>Next.js</li>
                 <li>Redux</li>
                 <li>Node.js</li>
-                <li>Express</li>
+                <li>Express.js</li>
                 <li>PostgreSQL</li>
                 <li>MongoDB</li>
                 <li>Typescript</li>
@@ -109,8 +109,8 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg'>
-                    I am a full stack web developer aiming to work with web applications that have usefull and responsive functionalities.
-                    I have experience working with Javascript, React, Next.js, Redux, Node.js, Express, PostqreSQL, MongoDB, Typescript, HTML, CSS, Tailwind CSS, Postman and Git. Besides I have experience in web integrations in both front and backend, connecting and developing API web hooks.
+                    I am a fullstack web developer aiming to work with web applications that have usefull and responsive functionalities.
+                    I have experience working with Javascript, React, Next.js, Redux, Node.js, Express.js, PostqreSQL, MongoDB, Typescript, HTML, CSS, Tailwind CSS, Postman and Git. Besides I have experience in web integrations in both front and backend, connecting and developing API web hooks.
                     I also have past experience working with CRM and communication projects management.
                 </p>
                 <div className='flex flex-row justify-start mt-8'>
