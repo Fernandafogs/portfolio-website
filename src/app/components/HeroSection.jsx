@@ -36,7 +36,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-                    I am a developer interested in advancing my skills through constant learning, and contributing to the projects' success with well-rounded applications.
+                    I am a developer interested in advancing my skills through constant learning, and contributing to the projects&apos; success with well-rounded applications.
                 </p>
                 <div>
                     <button 
