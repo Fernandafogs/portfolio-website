@@ -35,6 +35,16 @@ const projectsData = [
         gitUrl: "https://github.com/Fernandafogs/recipe-app",
         previewUrl:"https://github.com/Fernandafogs/recipe-app",
     },
+    {
+        id: 4,
+        title: "To Do List",
+        description: "A to do list built in JavaScript and CSS that uses Local Storage.",
+        image: "/images/projects/4.png",
+        alt: "project4",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Fernandafogs/lista-de-tarefas",
+        previewUrl:"https://fernanda-fogaca-todolist.netlify.app/",
+    },
 ]
 
 const ProjectsSection = () => {
