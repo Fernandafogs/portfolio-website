@@ -49,7 +49,7 @@ const projectsData = [
         id: 5,
         title: "Spotify Clone",
         description: "A spotify clone built in React JS and Tailwind CSS currently using local files.",
-        image: "/images/projects/4.png",
+        image: "/images/projects/5.png",
         alt: "project5",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Fernandafogs/spotify-cover",
