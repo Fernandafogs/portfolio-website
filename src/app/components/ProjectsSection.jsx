@@ -45,6 +45,17 @@ const projectsData = [
         gitUrl: "https://github.com/Fernandafogs/lista-de-tarefas",
         previewUrl:"https://fernanda-fogaca-todolist.netlify.app/",
     },
+    {
+        id: 5,
+        title: "Spotify Clone",
+        description: "A spotify clone built in React JS and Tailwind CSS currently using local files.",
+        image: "/images/projects/4.png",
+        alt: "project5",
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/Fernandafogs/spotify-cover",
+        previewUrl:"https://fernanda-fogaca-spotify-clone.netlify.app/",
+    },
+
 ]
 
 const ProjectsSection = () => {
